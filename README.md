@@ -23,6 +23,9 @@ This project simulates how a basic chat backend works using **Object-Oriented Pr
 
 ## Project Structure
 
+## Project Structure
+
+```
 chat-backend-system
 │
 ├── model
@@ -34,6 +37,8 @@ chat-backend-system
 │   └── ChatService.java
 │
 └── Main.java
+```
+
 
 
 ## Future Improvements
