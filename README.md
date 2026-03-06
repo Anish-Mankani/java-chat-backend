@@ -22,9 +22,6 @@ This project simulates how a basic chat backend works using **Object-Oriented Pr
 - HashMap
 
 ## Project Structure
-
-## Project Structure
-
 ```
 chat-backend-system
 │
