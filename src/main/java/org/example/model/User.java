@@ -3,13 +3,11 @@ package org.example.model;
 public class User {
 
     private int id;
-    private  String name;
+    private String name;
 
-
-    public User(String name, int id) {
+    public User(int id, String name) {
         this.id = id;
         this.name = name;
-
     }
 
     public int getId() {
@@ -20,4 +18,17 @@ public class User {
         return name;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+
+        User user = (User) o;
+        return id == user.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Integer.hashCode(id);
+    }
 }
